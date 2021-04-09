@@ -23,6 +23,10 @@ body, input, button{
     width: 190px;
 }
 
+.menu_icon{
+    display: none;
+}
+
 .menu{
     text-align: right;
 }
@@ -123,4 +127,54 @@ button .google_logo{
 
 .terms_service{
     color: #579AFF;
+}
+
+/* MEDIA QUERY - HEADER*/
+
+@media screen and (max-width:767px){
+    .container{
+        padding: 0 15px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu_icon{
+        display: block;
+        text-align: right;
+    }
+
+    .fa-bars{
+        font-size: 25px;
+        color: #579AFF;
+    }
+
+    .jumbotron .container{
+        flex-direction: column;
+    }
+
+    .jumbo_left{
+        color: white;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .jumbo_left h1{
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .jumbo_left p{
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    .jumbo_right{
+        width: 100%;
+    } 
+    
+    .jumbotron{
+        background-size: 250%;
+    }
 }
