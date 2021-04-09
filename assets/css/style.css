@@ -2,15 +2,23 @@
 #site_nav{
     border: 1px solid aquamarine;
 }
+.jumbotron{
+    height: 500px;
+}
+
+/* UTILITY */
+.flex-row{
+    display: flex;
+}
 
 /* FONT-FAMILY */
 body{
     font-family: 'Inter', sans-serif;
 }
 
-/* NAV */
+/* SITE NAV */
 #site_nav .row{
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
 }
@@ -26,6 +34,7 @@ body{
 .menu a{
     padding-left: 10px;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .menu .btn{
@@ -35,3 +44,36 @@ body{
     color: #579AFF;
     margin: 0 10px;
 }
+
+/* SITE JUMBOTRON */
+.jumbotron{
+    background-color: #004AFF;
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: 110%;
+    background-position: center;
+}
+
+.jumbotron .container{
+    height: 500px;
+    align-items: center;
+}
+
+.jumbo_left{
+    color: white;
+    width: 42%;
+}
+
+.jumbo_left h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.jumbo_left p{
+    line-height: 1.7rem;
+    opacity: .7;
+}
+
+button .google_logo{
+    width: 20px;
+}
+
