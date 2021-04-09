@@ -1,19 +1,15 @@
 /* DEBUG */
-#site_nav{
+/* #site_nav{
     border: 1px solid aquamarine;
 }
-.jumbotron{
-    height: 500px;
+ */
+/* UTILITY */
+body, input, button{
+    font-family: 'Inter', sans-serif;
 }
 
-/* UTILITY */
 .flex-row{
     display: flex;
-}
-
-/* FONT-FAMILY */
-body{
-    font-family: 'Inter', sans-serif;
 }
 
 /* SITE NAV */
@@ -32,9 +28,10 @@ body{
 }
 
 .menu a{
-    padding-left: 10px;
+    padding-left: 15px;
     font-size: 14px;
     font-weight: bold;
+    color: black;
 }
 
 .menu .btn{
@@ -49,31 +46,81 @@ body{
 .jumbotron{
     background-color: #004AFF;
     background-image: url(../img/bg-banner-home.jpg);
-    background-size: 110%;
+    background-size: 100%;
     background-position: center;
+    padding: 80px 0;
 }
 
 .jumbotron .container{
-    height: 500px;
     align-items: center;
+    justify-content: space-between;
 }
-
+/* jumbotron left part */
 .jumbo_left{
     color: white;
-    width: 42%;
+    width: 50%;
 }
 
 .jumbo_left h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 10px;
 }
 
 .jumbo_left p{
-    line-height: 1.7rem;
+    font-size: 19px;
+    line-height: 2rem;
     opacity: .7;
 }
 
-button .google_logo{
-    width: 20px;
+/* jumbotron right part */
+.jumbo_right{
+    background-color: white;
+    width: 35%;
+    padding: 40px 15px;
+    border-radius: 4px;
+    text-align: center;
 }
 
+.jumbo_right h2{
+    margin-bottom: 10px;
+}
+
+.jumbo_right h2:nth-child(2){
+    color: #579AFF;
+}
+
+form input, form button{
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    
+}
+
+.new_account{
+    background-color: #579AFF;
+    border: 1px solid #579AFF;
+    color: white;
+}
+
+.sign_up_google{
+    background-color: white;
+    color: gray;
+    position: relative;
+}
+
+button .google_logo{
+    width: 17px;
+    position: absolute;
+    left: 10px;
+}
+
+.jumbo_right p{
+    font-size: 12px;
+}
+
+.terms_service{
+    color: #579AFF;
+}
