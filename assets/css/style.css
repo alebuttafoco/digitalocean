@@ -125,7 +125,7 @@ button .google_logo{
     font-size: 12px;
 }
 
-.terms_service{
+.terms_service, .logos a{
     color: #579AFF;
 }
 
@@ -214,4 +214,35 @@ button .google_logo{
     .jumbotron{
         background-size: 200%;
     }
+}
+
+/* SITE MAIN */
+/* section logos */
+.logos{
+    background-color: #F3F5F9;
+    padding: 20px 0;
+}
+
+.logos h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #76829C;
+    padding-top: 25px;
+}
+
+.logos_box{
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+
+.logos_box img{
+    width: 156px;
+}
+
+.logos a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
 }
