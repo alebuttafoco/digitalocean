@@ -246,3 +246,60 @@ button .google_logo{
     font-weight: bold;
     font-size: 14px;
 }
+
+/* MEDIA QUERY - SECTION LOGOS*/
+@media screen and (max-width:767px){
+    .logos_box{
+        flex-wrap: wrap;
+    }
+
+    .logos_box img{
+        padding:0 10px;
+    }
+
+    .logos h4{
+        font-size: 14px;
+    }
+
+    .logos a{
+        font-size: 12px;
+    }
+}
+
+/* @media screen and (min-width: 768px) and (max-width:991px){
+    .container{
+        padding: 0 25px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu_icon{
+        display: block;
+        text-align: right;
+    }
+
+    .fa-bars{
+        font-size: 25px;
+        color: #579AFF;
+    }
+
+    .jumbo_left{
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .jumbo_left h1{
+        font-size: 2rem;
+    }
+
+    .jumbo_left p{
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    .jumbotron{
+        background-size: 200%;
+    }
+} */
