@@ -130,7 +130,6 @@ button .google_logo{
 }
 
 /* MEDIA QUERY - HEADER*/
-
 @media screen and (max-width:767px){
     .container{
         padding: 0 15px;
@@ -176,5 +175,43 @@ button .google_logo{
     
     .jumbotron{
         background-size: 250%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    .container{
+        padding: 0 25px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu_icon{
+        display: block;
+        text-align: right;
+    }
+
+    .fa-bars{
+        font-size: 25px;
+        color: #579AFF;
+    }
+
+    .jumbo_left{
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .jumbo_left h1{
+        font-size: 2rem;
+    }
+
+    .jumbo_left p{
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    .jumbotron{
+        background-size: 200%;
     }
 }
