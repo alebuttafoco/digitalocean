@@ -142,4 +142,24 @@
     .logos a{
         font-size: 16px;
     }
+
+    /* MEDIA QUERY - SECTION DEPLOY AND SCALE*/
+        .deploy_and_scale{
+        padding-top:70px;
+        padding-bottom: 70px;
+    }
+
+    .deploy_and_scale > .row:first-child p,
+    .deploy_and_scale > .row ul > li{
+        font-size: 1.3rem;
+    }
+
+    .deploy_and_scale > .row ul{
+        padding-left: 30px;
+    }
+
+    .deploy_and_scale h3{
+        font-size: 18px;
+    }
+    
 }
