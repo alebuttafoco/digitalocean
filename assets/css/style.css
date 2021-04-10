@@ -1,10 +1,8 @@
-/* DEBUG */
-/* #site_nav{
-    border: 1px solid aquamarine;
-}
- */
+
 /* UTILITY */
-body, input, button{
+body, 
+input, 
+button{
     font-family: 'Inter', sans-serif;
 }
 
@@ -93,7 +91,8 @@ body, input, button{
     color: #579AFF;
 }
 
-form input, form button{
+form input, 
+form button{
     display: block;
     width: 100%;
     padding: 7px 0;
@@ -129,93 +128,6 @@ button .google_logo{
     color: #579AFF;
 }
 
-/* MEDIA QUERY - HEADER*/
-@media screen and (max-width:767px){
-    .container{
-        padding: 0 15px;
-    }
-
-    .menu{
-        display: none;
-    }
-
-    .menu_icon{
-        display: block;
-        text-align: right;
-    }
-
-    .fa-bars{
-        font-size: 25px;
-        color: #579AFF;
-    }
-
-    .jumbotron .container{
-        flex-direction: column;
-    }
-
-    .jumbo_left{
-        color: white;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    
-    .jumbo_left h1{
-        font-size: 2.2rem;
-        margin-bottom: 10px;
-    }
-
-    .jumbo_left p{
-        font-size: 18px;
-        line-height: 1.7rem;
-    }
-
-    .jumbo_right{
-        width: 100%;
-    } 
-    
-    .jumbotron{
-        background-size: 250%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:991px){
-    .container{
-        padding: 0 25px;
-    }
-
-    .menu{
-        display: none;
-    }
-
-    .menu_icon{
-        display: block;
-        text-align: right;
-    }
-
-    .fa-bars{
-        font-size: 25px;
-        color: #579AFF;
-    }
-
-    .jumbo_left{
-        color: white;
-        margin-bottom: 10px;
-    }
-    
-    .jumbo_left h1{
-        font-size: 2rem;
-    }
-
-    .jumbo_left p{
-        font-size: 18px;
-        line-height: 1.7rem;
-    }
-
-    .jumbotron{
-        background-size: 200%;
-    }
-}
-
 /* SITE MAIN */
 /* section logos */
 .logos{
@@ -248,27 +160,63 @@ button .google_logo{
     font-size: 14px;
 }
 
-/* MEDIA QUERY - SECTION LOGOS*/
-@media screen and (max-width:767px){
-    .logos_box{
-        flex-wrap: wrap;
-    }
-
-    .logos h4{
-        font-size: 14px;
-    }
-
-    .logos a{
-        font-size: 12px;
-    }
+/* section deploy and scale */
+.deploy_and_scale{
+    padding: 70px 0;
 }
 
-@media screen and (min-width: 768px) and (max-width:991px){
-    .logos_box img{
-        width: 130px;
-    }
+.deploy_and_scale > .row:first-child{
+    text-align: center;
+    padding-bottom: 60px;
+}
 
-    .logos a{
-        font-size: 16px;
-    }
+.deploy_and_scale > .row:first-child h2{
+    font-size: 2rem;
+}
+
+.deploy_and_scale > .row:first-child p{
+    line-height: 2rem;
+}
+
+.deploy_and_scale > .row:first-child p,
+.deploy_and_scale > .row ul > li{
+    font-size: 1.3rem;
+}
+
+.deploy_and_scale p, 
+.deploy_and_scale h2, 
+.deploy_and_scale h3, 
+.deploy_and_scale > .row ul > li{
+    color: #031C4E;
+}
+
+.deploy_and_scale > .row:first-child h2{
+    margin-bottom: 15px;
+}
+
+.deploy_and_scale p, 
+.deploy_and_scale > .row ul > li{
+    opacity: .7;
+}
+
+.deploy_and_scale > .row:last-child h3{
+    padding: 10px 0;
+}
+
+.optimized_compute, .global{
+    padding: 0 50px;
+}
+
+.one_click, .global{
+    padding-top: 30px;
+}
+
+.deploy_and_scale > .row ul > li{
+    list-style: none;
+    border-left: 1px solid #031c4e6b;
+    padding: 10px;
+}
+
+.deploy_and_scale > .row ul{
+    padding-left: 100px;
 }
