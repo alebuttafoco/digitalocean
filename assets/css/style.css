@@ -1,5 +1,5 @@
 
-/* UTILITY */
+/* COMMON RULES */
 body, 
 input, 
 button{
@@ -8,6 +8,14 @@ button{
 
 .flex-row{
     display: flex;
+}
+
+h2,
+h2 + p 
+.deploy_and_scale h3, 
+.deploy_and_scale > .row ul > li,
+.designed_for_developers p{
+    color: #031C4E;
 }
 
 /* SITE NAV */
@@ -170,17 +178,19 @@ button .google_logo{
     padding-bottom: 60px;
 }
 
-.deploy_and_scale > .row:first-child h2{
+#site_main h2{
     font-size: 2rem;
 }
 
-.deploy_and_scale > .row:first-child p{
+h2 + p{
+    font-size: 1.3rem;
     line-height: 2rem;
+    opacity: .7;
 }
 
-.deploy_and_scale > .row:first-child p,
 .deploy_and_scale > .row ul > li{
     font-size: 1.3rem;
+    opacity: .7;
 }
 
 .deploy_and_scale > .row ul > li{
@@ -192,23 +202,7 @@ button .google_logo{
 .deploy_and_scale > .row ul{
     padding-left: 100px;
 }
-
-.deploy_and_scale p, 
-.deploy_and_scale h2, 
-.deploy_and_scale h3, 
-.deploy_and_scale > .row ul > li{
-    color: #031C4E;
-}
-
-.deploy_and_scale > .row:first-child h2{
-    margin-bottom: 15px;
-}
-
-.deploy_and_scale p, 
-.deploy_and_scale > .row ul > li{
-    opacity: .7;
-}
-
+ 
 .deploy_and_scale > .row:last-child h3{
     padding: 10px 0;
 }
@@ -219,4 +213,57 @@ button .google_logo{
 
 .one_click, .global{
     padding-top: 30px;
+}
+
+/* SECTION DESIGNED FOR DEVELOPERS */
+.designed_for_developers{
+    background-color: #f3f5f9;
+}
+
+.designed_for_developers > .container{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.designed_for_developers > .container > .row{
+    text-align: center;
+}
+
+.designed_for_developers h2 + p{
+    padding: 35px 0;
+}
+
+.slide{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slide img{
+    padding: 20px;
+    width: 60%;
+}
+
+.slide a{
+    color: black;
+}
+
+.fa-chevron-left, 
+.fa-chevron-right{
+    font-size: 30px;
+}
+
+.fa-circle{
+    font-size: 12px;
+    color: #006AFF;
+}
+
+.full_circle{
+    background-color: #006AFF;
+    border-radius: 50%;
+}
+
+.circle_indicators{
+    position: absolute;
+    bottom: -45px;
 }
