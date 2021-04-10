@@ -1,9 +1,9 @@
-/* MEDIA QUERY - HEADER*/
 @media screen and (max-width:767px){
     .container{
         padding: 0 15px;
     }
 
+    /* MEDIA QUERY - HEADER*/
     .menu{
         display: none;
     }
@@ -45,6 +45,55 @@
     .jumbotron{
         background-size: 250%;
     }
+
+    /* MEDIA QUERY - SECTION LOGOS*/
+    .logos_box{
+        flex-wrap: wrap;
+    }
+
+    .logos h4{
+        font-size: 14px;
+    }
+
+    .logos a{
+        font-size: 12px;
+    }
+
+    /* MEDIA QUERY - SECTION DEPLOY AND SCALE*/
+    .deploy_and_scale{
+        padding-top:70px;
+        padding-bottom: 70px;
+    }
+    .deploy_and_scale > .row:first-child {
+    padding-bottom: 40px;
+}
+
+    .deploy_and_scale > .row:first-child p,
+    .deploy_and_scale > .row ul > li{
+        font-size: 1rem;
+    }
+
+    .deploy_and_scale > .row ul{
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .optimized_compute,
+    .global, 
+    .one_click, 
+    .global,
+    .cluster{
+        padding: 15px 0 0;
+    }
+
+    .deploy_and_scale p{
+        font-size: 14px;
+    }
+    
+    .deploy_and_scale h3{
+        font-size: 18px;
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width:991px){
@@ -52,6 +101,7 @@
         padding: 0 25px;
     }
 
+    /* MEDIA QUERY - HEADER*/
     .menu{
         display: none;
     }
@@ -83,24 +133,8 @@
     .jumbotron{
         background-size: 200%;
     }
-}
 
-/* MEDIA QUERY - SECTION LOGOS*/
-@media screen and (max-width:767px){
-    .logos_box{
-        flex-wrap: wrap;
-    }
-
-    .logos h4{
-        font-size: 14px;
-    }
-
-    .logos a{
-        font-size: 12px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:991px){
+    /* MEDIA QUERY - SECTION LOGOS*/
     .logos_box img{
         width: 130px;
     }

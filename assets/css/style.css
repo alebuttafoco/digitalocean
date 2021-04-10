@@ -183,6 +183,16 @@ button .google_logo{
     font-size: 1.3rem;
 }
 
+.deploy_and_scale > .row ul > li{
+    list-style: none;
+    border-left: 1px solid #031c4e6b;
+    padding: 10px;
+}
+
+.deploy_and_scale > .row ul{
+    padding-left: 100px;
+}
+
 .deploy_and_scale p, 
 .deploy_and_scale h2, 
 .deploy_and_scale h3, 
@@ -209,14 +219,4 @@ button .google_logo{
 
 .one_click, .global{
     padding-top: 30px;
-}
-
-.deploy_and_scale > .row ul > li{
-    list-style: none;
-    border-left: 1px solid #031c4e6b;
-    padding: 10px;
-}
-
-.deploy_and_scale > .row ul{
-    padding-left: 100px;
 }
