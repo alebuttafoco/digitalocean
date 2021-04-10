@@ -236,7 +236,6 @@ h2 + p{
 .slide{
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .slide img{
@@ -264,6 +263,5 @@ h2 + p{
 }
 
 .circle_indicators{
-    position: absolute;
-    bottom: -45px;
+    text-align: center;
 }
