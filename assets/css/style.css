@@ -25,11 +25,14 @@ h2 + p,
 .title_box,
 .text_box, 
 .deploy_and_scale > .row ul > li,
-.designed_for_developers p{
+.designed_for_developers p,
+.citation,
+.slide_box span{
     color: #031C4E;
 }
 
-.text_box{
+.text_box,
+.citation{
     opacity: .7;
 }
 
@@ -40,7 +43,9 @@ h2 + p,
 .designed_for_developers > .container > .row,
 .circle_indicators,
 .features h2,
-.regions h2{
+.regions h2,
+.teams h2,
+.citation{
     text-align: center;
 }
 
@@ -235,7 +240,7 @@ h2 + p{
 }
 
 /* SECTION DESIGNED FOR DEVELOPERS */
-.designed_for_developers{
+.designed_for_developers, .teams{
     background-color: #f3f5f9;
 }
 
@@ -289,7 +294,7 @@ h2 + p{
     margin-bottom: 10px;
 }
 
-.features_box  a{
+.features_box  a, .slide_box a{
     text-decoration: none;
     color: #3F90FF;
     font-weight: bold;
@@ -330,4 +335,38 @@ h2 + p{
 
 .full_name{
     opacity: .7;
+}
+
+/* SECTION TEAMS */
+.slide_box{
+    width: 50%;
+    background-color: white;
+    padding: 60px 10px;
+    margin: 70px 15px 30px;
+}
+
+.slide_box{
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide_box img{
+    width: 350px;
+}
+
+.citation{
+    font-size: 1.2rem;
+}
+
+.slide_box p{
+    padding: 15px 0;
+}
+
+.slide_box span{
+    font-size: 14px;
+    padding: 2px;
+}
+
+.slide_box a{
+    padding-top: 30px;
 }

@@ -116,6 +116,19 @@
         font-size: 11px;
     }
 
+    /* SECTION TEAMS */
+    .slide_box{
+        width: 70%;
+    }
+
+    .slide_box img{
+        width: 250px;
+    }
+
+    .teams .circle_indicators{
+        margin-top: 0;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:991px){
@@ -192,5 +205,11 @@
 
     .circle_indicators{
         margin-top: 70px;
+    }
+
+
+
+     .teams .circle_indicators{
+        margin-top: 0;
     }
 }
