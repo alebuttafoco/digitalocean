@@ -10,12 +10,37 @@ button{
     display: flex;
 }
 
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title_box{
+    padding: 10px 0;
+}
+
+.menu a,
 h2,
-h2 + p 
-.deploy_and_scale h3, 
+h2 + p,
+.title_box,
+.text_box, 
 .deploy_and_scale > .row ul > li,
 .designed_for_developers p{
     color: #031C4E;
+}
+
+.text_box{
+    opacity: .7;
+}
+
+.jumbo_right,
+.logos a,
+.logos h4,
+.deploy_and_scale > .row:first-child,
+.designed_for_developers > .container > .row,
+.circle_indicators,
+.features h2{
+    text-align: center;
 }
 
 /* SITE NAV */
@@ -41,7 +66,6 @@ h2 + p
     padding-left: 15px;
     font-size: 14px;
     font-weight: bold;
-    color: black;
 }
 
 .menu .btn{
@@ -88,7 +112,6 @@ h2 + p
     width: 35%;
     padding: 40px 15px;
     border-radius: 4px;
-    text-align: center;
 }
 
 .jumbo_right h2{
@@ -144,7 +167,6 @@ button .google_logo{
 }
 
 .logos h4{
-    text-align: center;
     text-transform: uppercase;
     color: #76829C;
     padding-top: 25px;
@@ -162,19 +184,13 @@ button .google_logo{
 
 .logos a{
     display: block;
-    text-align: center;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
 }
 
 /* section deploy and scale */
-.deploy_and_scale{
-    padding: 70px 0;
-}
-
 .deploy_and_scale > .row:first-child{
-    text-align: center;
     padding-bottom: 60px;
 }
 
@@ -203,10 +219,6 @@ h2 + p{
     padding-left: 100px;
 }
  
-.deploy_and_scale > .row:last-child h3{
-    padding: 10px 0;
-}
-
 .optimized_compute, .global{
     padding: 0 50px;
 }
@@ -218,15 +230,6 @@ h2 + p{
 /* SECTION DESIGNED FOR DEVELOPERS */
 .designed_for_developers{
     background-color: #f3f5f9;
-}
-
-.designed_for_developers > .container{
-    padding-top: 70px;
-    padding-bottom: 60px;
-}
-
-.designed_for_developers > .container > .row{
-    text-align: center;
 }
 
 .designed_for_developers h2 + p{
@@ -262,6 +265,25 @@ h2 + p{
     border-radius: 50%;
 }
 
-.circle_indicators{
-    text-align: center;
+/* SECTION FEATURES */
+.features h2{
+    padding-bottom: 50px;
+}
+
+.features_box {
+    padding-right: 30px;
+}
+
+.features h3{
+    padding: 10px 0;
+}
+
+.features_box p{
+    margin-bottom: 10px;
+}
+
+.features_box  a{
+    text-decoration: none;
+    color: #3F90FF;
+    font-weight: bold;
 }

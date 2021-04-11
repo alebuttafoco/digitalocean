@@ -1,6 +1,22 @@
 @media screen and (max-width:767px){
+    /* COMMON RULES */
     .container{
-        padding: 0 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .optimized_compute,
+    .global, 
+    .one_click, 
+    .global,
+    .cluster,
+    .features_box{
+        padding: 15px 0 0;
+    }
+
+    .text_box,
+    .features a{
+        font-size: 14px;
     }
 
     /* MEDIA QUERY - HEADER*/
@@ -60,13 +76,9 @@
     }
 
     /* MEDIA QUERY - SECTION DEPLOY AND SCALE*/
-    .deploy_and_scale{
-        padding-top:70px;
-        padding-bottom: 70px;
-    }
     .deploy_and_scale > .row:first-child {
     padding-bottom: 40px;
-}
+    }
 
     .deploy_and_scale > .row:first-child p,
     .deploy_and_scale > .row ul > li{
@@ -77,22 +89,11 @@
         padding-bottom: 20px;
         padding-left: 0;
     }
-
-    .optimized_compute,
-    .global, 
-    .one_click, 
-    .global,
-    .cluster{
-        padding: 15px 0 0;
-    }
-
-    .deploy_and_scale p{
-        font-size: 14px;
-    }
     
-    .deploy_and_scale h3{
+    .title_box{
         font-size: 18px;
     }
+
     /* MEDIA QUERY - SECTION DESIGNED FOR DEVELOPERS */
     .designed_for_developers h2 + p{
         font-size: 1.2rem;
@@ -109,12 +110,13 @@
 
     .designed_for_developers .row p:only-child{
         font-size: 12px;
-    }
+    }    
 }
 
 @media screen and (min-width: 768px) and (max-width:991px){
     .container{
-        padding: 0 25px;
+        padding-right:25px;
+        padding-left: 25px;
     }
 
     /* MEDIA QUERY - HEADER*/
@@ -174,7 +176,7 @@
         padding-left: 30px;
     }
 
-    .deploy_and_scale h3{
+    .title_box{
         font-size: 18px;
     }
     
