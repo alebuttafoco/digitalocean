@@ -6,7 +6,7 @@ button{
     font-family: 'Inter', sans-serif;
 }
 
-.flex-row{
+.flex{
     display: flex;
 }
 
@@ -39,8 +39,15 @@ h2 + p,
 .deploy_and_scale > .row:first-child,
 .designed_for_developers > .container > .row,
 .circle_indicators,
-.features h2{
+.features h2,
+.regions h2{
     text-align: center;
+}
+
+.regions h2,
+.regions h2,
+.regions .container{
+    color: white;
 }
 
 /* SITE NAV */
@@ -286,4 +293,41 @@ h2 + p{
     text-decoration: none;
     color: #3F90FF;
     font-weight: bold;
+}
+
+/* SECTION REGIONS */
+.regions{
+    background: linear-gradient(180deg, #0047C5 0%, #001F9A 100%);
+}
+
+.regions .container{
+    font-size: 13px;
+}
+
+.regions .container .row .regions_box{
+    margin-top: 20px;
+}
+
+.regions .container .row .regions_box:first-child{
+    padding-right: 10px;
+}
+.regions .container .row .regions_box:last-child{
+    padding-left: 10px;
+}
+
+.regions a{
+    text-decoration: none;
+    color: #00B4CA;
+}
+
+.region{
+    padding: 10px;
+}
+
+.region:not(.region:last-child){
+    border-bottom: 1px solid rgba(255, 255, 255, 0.699);
+}
+
+.full_name{
+    opacity: .7;
 }
