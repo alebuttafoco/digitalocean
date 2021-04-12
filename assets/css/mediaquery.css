@@ -129,6 +129,19 @@
         margin-top: 0;
     }
 
+    /* SITE FOOTER */
+    .left_footer{
+        margin-bottom: 30px;
+    }
+
+    .cln_links{
+        margin-bottom: 15px;
+    }
+
+    .right_footer{
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:991px){
@@ -211,5 +224,10 @@
 
      .teams .circle_indicators{
         margin-top: 0;
+    }
+
+    /* SITE FOOTER */
+    .left_footer{
+        margin-bottom: 30px;
     }
 }

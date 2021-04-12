@@ -10,7 +10,8 @@ button{
     display: flex;
 }
 
-section{
+section,
+#site_footer{
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -59,7 +60,8 @@ h2 + p,
     opacity: .5;
 }
 
-/* SITE NAV */
+/* SITE HEADER */
+/* NAV */
 #site_nav .row{
     padding: 10px 0;
     display: flex;
@@ -96,7 +98,7 @@ h2 + p,
     margin: 0 10px;
 }
 
-/* SITE JUMBOTRON */
+/* JUMBOTRON */
 .jumbotron{
     background-color: #004AFF;
     background-image: url(../img/bg-banner-home.jpg);
@@ -247,7 +249,7 @@ h2 + p{
     padding-top: 30px;
 }
 
-/* SECTION DESIGNED FOR DEVELOPERS */
+/* section designed for developers */
 .designed_for_developers, .teams{
     background-color: #f3f5f9;
 }
@@ -285,7 +287,7 @@ h2 + p{
     border-radius: 50%;
 }
 
-/* SECTION FEATURES */
+/* section features */
 .features h2{
     padding-bottom: 50px;
 }
@@ -308,7 +310,7 @@ h2 + p{
     font-weight: bold;
 }
 
-/* SECTION REGIONS */
+/* section regions */
 .regions,
 .get_started{
     background: linear-gradient(180deg, #0047C5 0%, #001F9A 100%);
@@ -346,7 +348,7 @@ h2 + p{
     opacity: .7;
 }
 
-/* SECTION TEAMS */
+/* section teams */
 .slide_box{
     width: 50%;
     background-color: white;
@@ -380,7 +382,7 @@ h2 + p{
     padding-top: 30px;
 }
 
-/* SECTION GET STARTED */
+/* section get started */
 .get_started{
     align-items: center;
     flex-direction: column;
@@ -394,4 +396,53 @@ h2 + p{
 .get_started .btn{
     text-decoration: none;
     background-color: white;
+}
+
+/* SITE FOOTER */
+#site_footer{
+    background-color: #031C4E;
+}
+
+.left_footer{
+    font-size: 14px;
+}
+
+.rights,
+.made_in,
+#site_footer a,
+.links_footer{
+    color: white;
+    opacity: .7;
+}
+
+.rights{
+    padding-top: 10px;
+}
+
+.made_in{
+    padding-bottom: 15px;
+    opacity: .3;
+}
+
+#site_footer .social_link a{
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.left_footer{
+    flex-direction: column;
+}
+
+.title_list_footer{
+    color: white;
+    padding-bottom: 15px;
+}
+
+.links_footer a{
+    text-decoration: none;
+}
+
+.links_footer li{
+    list-style: none;
+    padding-bottom: 15px;
 }
