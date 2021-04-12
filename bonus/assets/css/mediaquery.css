@@ -1,0 +1,262 @@
+@media screen and (max-width:767px){
+    /* COMMON RULES */
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .optimized_compute,
+    .global, 
+    .one_click, 
+    .global,
+    .cluster,
+    .features_box{
+        padding: 15px 0 0;
+    }
+
+    .text_box,
+    .features a{
+        font-size: 14px;
+    }
+
+    /* MEDIA QUERY - HEADER*/
+    .menu{
+        display: none;
+    }
+
+    .menu_icon{
+        display: block;
+        text-align: right;
+    }
+
+    .fa-bars{
+        font-size: 25px;
+        color: #579AFF;
+    }
+
+    .jumbotron .container{
+        flex-direction: column;
+    }
+
+    .jumbo_left{
+        color: white;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .jumbo_left h1{
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .jumbo_left p{
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    .jumbo_right{
+        width: 100%;
+    } 
+    
+    /* MEDIA QUERY - SECTION LOGOS*/
+    .logos_box{
+        flex-wrap: wrap;
+    }
+
+    .logos h4{
+        font-size: 14px;
+    }
+
+    .logos a{
+        font-size: 12px;
+    }
+
+    /* MEDIA QUERY - SECTION DEPLOY AND SCALE*/
+    .deploy_and_scale > .row:first-child {
+    padding-bottom: 40px;
+    }
+
+    .deploy_and_scale > .row:first-child p,
+    .deploy_and_scale > .row ul > li{
+        font-size: 1rem;
+    }
+
+    .deploy_and_scale > .row ul{
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+    
+    .title_box{
+        font-size: 18px;
+    }
+
+    /* MEDIA QUERY - SECTION DESIGNED FOR DEVELOPERS */
+    .designed_for_developers h2 + p{
+        font-size: 1.2rem;
+        padding-bottom: 100px;
+    }
+
+    .fa-chevron-left, .fa-chevron-right{
+        display: none;
+    }
+
+    .circle_indicators{
+        margin-top: 70px;
+    }
+
+    .designed_for_developers .row p:only-child{
+        font-size: 12px;
+    }
+    /* SECTION REGIONS */
+    .regions .container{
+        font-size: 11px;
+    }
+
+    /* SECTION TEAMS */
+    .slide_box{
+        width: 70%;
+    }
+
+    .slide_box img{
+        width: 250px;
+    }
+
+    .teams .circle_indicators{
+        margin-top: 0;
+    }
+
+    /* SITE FOOTER */
+    .left_footer{
+        margin-bottom: 30px;
+    }
+
+    .cln_links{
+        margin-bottom: 15px;
+    }
+
+    .right_footer{
+        font-size: 14px;
+    }
+
+    .help_button{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: 15px;
+        bottom: 100px;
+    }
+
+    .message_help{
+        position: absolute;
+        left: 0px;
+        top: 70px;
+    }
+
+    .square{
+        position: absolute;
+        top: 65px;
+        left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    .container{
+        padding-right:25px;
+        padding-left: 25px;
+    }
+
+    /* MEDIA QUERY - HEADER*/
+    .menu{
+        display: none;
+    }
+
+    .menu_icon{
+        display: block;
+        text-align: right;
+    }
+
+    .fa-bars{
+        font-size: 25px;
+        color: #579AFF;
+    }
+
+    .jumbo_left{
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .jumbo_left h1{
+        font-size: 2rem;
+    }
+
+    .jumbo_left p{
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    /* MEDIA QUERY - SECTION LOGOS*/
+    .logos_box img{
+        width: 130px;
+    }
+
+    .logos a{
+        font-size: 16px;
+    }
+
+    /* MEDIA QUERY - SECTION DEPLOY AND SCALE*/
+        .deploy_and_scale{
+        padding-top:70px;
+        padding-bottom: 70px;
+    }
+
+    .deploy_and_scale > .row:first-child p,
+    .deploy_and_scale > .row ul > li{
+        font-size: 1.3rem;
+    }
+
+    .deploy_and_scale > .row ul{
+        padding-left: 30px;
+    }
+
+    .title_box{
+        font-size: 18px;
+    }
+    
+    /* MEDIA QUERY - SECTION DESIGNED FOR DEVELOPERS */
+    .fa-chevron-left, .fa-chevron-right{
+        visibility: visible;
+    }
+
+    .circle_indicators{
+        margin-top: 70px;
+    }
+
+     .teams .circle_indicators{
+        margin-top: 0;
+    }
+
+    /* SITE FOOTER */
+    .left_footer{
+        margin-bottom: 30px;
+    }
+
+    .help_button{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: 25px;
+        bottom: 120px;
+    }
+
+    .message_help{
+        position: absolute;
+        left: 0px;
+        top: 65px;
+    }
+
+    .square{
+        position: absolute;
+        top: 60px;
+        left: 15px;
+    }
+}
