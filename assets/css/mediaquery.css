@@ -58,10 +58,6 @@
         width: 100%;
     } 
     
-    .jumbotron{
-        background-size: 250%;
-    }
-
     /* MEDIA QUERY - SECTION LOGOS*/
     .logos_box{
         flex-wrap: wrap;
@@ -198,10 +194,6 @@
         line-height: 1.7rem;
     }
 
-    .jumbotron{
-        background-size: 200%;
-    }
-
     /* MEDIA QUERY - SECTION LOGOS*/
     .logos_box img{
         width: 130px;
@@ -238,8 +230,6 @@
     .circle_indicators{
         margin-top: 70px;
     }
-
-
 
      .teams .circle_indicators{
         margin-top: 0;
