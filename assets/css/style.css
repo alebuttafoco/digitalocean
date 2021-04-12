@@ -446,3 +446,51 @@ h2 + p{
     list-style: none;
     padding-bottom: 15px;
 }
+
+.help_button{
+    background-image: url(../img/shark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    padding: 7px 0;
+    border-radius: 5px;
+    background-color: #1878FF;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.num_notifications{
+    color: white;
+    padding: 0 5px ;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: red;
+    position: absolute;
+    right: -10px;
+    top: -8px;
+}
+
+.message_help{
+    font-size: 14px;
+    background-color: white;
+    padding: 10px;
+    width: 320px;
+    border-radius: 5px;
+    position: absolute;
+    right: 80px;
+    top: 0;
+}
+
+.square{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 25px;
+    right: 73px;
+
+}
